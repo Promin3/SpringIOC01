@@ -1,0 +1,9 @@
+@startuml
+class entity.DellDisplayerFactoryBean {
++ Class<?> getObjectType()
+# DellDisplayer createInstance()
+}
+
+
+org.springframework.beans.factory.config.AbstractFactoryBean <|-- entity.DellDisplayerFactoryBean
+@enduml
